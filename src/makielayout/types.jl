@@ -411,7 +411,7 @@ end
         so that the axis aspect ratio width/height matches `ratio`.
 
         Note that both `DataAspect` and `AxisAspect` can result in excess whitespace around the axis.
-        To make a `GridLayout` aware of aspect ratio constraints, refer to the `Aspect` column or row size setting. 
+        To make a `GridLayout` aware of aspect ratio constraints, refer to the `Aspect` column or row size setting.
         """
         aspect = nothing
         "The vertical alignment of the axis within its suggested bounding box."
@@ -451,12 +451,12 @@ end
         xticks = Makie.automatic
         """
         The formatter for the ticks on the x axis.
-        
+
         Usually, the tick values are determined first using `Makie.get_tickvalues`, after which
         `Makie.get_ticklabels(xtickformat, xtickvalues)` is called. If there is a special method defined,
         tick values and labels can be determined together using `Makie.get_ticks` instead. Check the
         docstring for `xticks` for more information.
-        
+
         Common objects that can be used for tick formatting are:
         - A `Function` that takes a vector of numbers and returns a vector of labels. A label can be anything
           that can be plotted by the `text` primitive.
@@ -485,12 +485,12 @@ end
         yticks = Makie.automatic
         """
         The formatter for the ticks on the y axis.
-        
+
         Usually, the tick values are determined first using `Makie.get_tickvalues`, after which
         `Makie.get_ticklabels(ytickformat, ytickvalues)` is called. If there is a special method defined,
         tick values and labels can be determined together using `Makie.get_ticks` instead. Check the
         docstring for `yticks` for more information.
-        
+
         Common objects that can be used for tick formatting are:
         - A `Function` that takes a vector of numbers and returns a vector of labels. A label can be anything
           that can be plotted by the `text` primitive.
@@ -546,14 +546,14 @@ end
 
         The function `autolimits!` resets the value of `limits` to `(nothing, nothing)` and adjusts the axis limits according
         to the extents of the plots added to the axis.
-        
+
         The value of `limits` can be a four-element tuple `(xlow, xhigh, ylow, high)` where each value
         can be a real number or `nothing`.
         It can also be a tuple `(x, y)` where `x` and `y` can be `nothing` or a tuple `(low, high)`.
         In all cases, `nothing` means that the respective limit values will be automatically determined.
 
         Automatically determined limits are also influenced by `xautolimitmargin` and `yautolimitmargin`.
-        
+
         The convenience functions `xlims!` and `ylims!` allow to set only the x or y part of `limits`.
         The function `limits!` is another option to set both x and y simultaneously.
         """
@@ -609,14 +609,14 @@ end
         `identity`, `log`, `log2`, `log10`, `sqrt`, `logit`, `Makie.pseudolog10` and `Makie.Symlog10`.
         To use a custom function, you have to define appropriate methods for `Makie.inverse_transform`,
         `Makie.defaultlimits` and `Makie.defined_interval`.
-        
+
         If the scaling function is only defined over a limited interval,
         no plot object may have a source datum that lies outside of that range.
         For example, there may be no x value lower than or equal to 0 when `log`
         is selected for `xscale`. What matters are the source data, not the user-selected
         limits, because all data have to be transformed, irrespective of whether they
         lie inside or outside of the current limits.
-        
+
         The axis scale may affect tick finding and formatting, depending
         on the values of `xticks` and `xtickformat`.
         """
@@ -628,14 +628,14 @@ end
         `identity`, `log`, `log2`, `log10`, `sqrt`, `logit`, `Makie.pseudolog10` and `Makie.Symlog10`.
         To use a custom function, you have to define appropriate methods for `Makie.inverse_transform`,
         `Makie.defaultlimits` and `Makie.defined_interval`.
-        
+
         If the scaling function is only defined over a limited interval,
         no plot object may have a source datum that lies outside of that range.
         For example, there may be no y value lower than or equal to 0 when `log`
         is selected for `yscale`. What matters are the source data, not the user-selected
         limits, because all data have to be transformed, irrespective of whether they
         lie inside or outside of the current limits.
-        
+
         The axis scale may affect tick finding and formatting, depending
         on the values of `yticks` and `ytickformat`.
         """
@@ -1626,23 +1626,23 @@ end
         "The specifier for the minor `r` ticks."
         rminorticks = IntervalsBetween(2)
         "The color of the `r` grid."
-        rgridcolor = inherit(scene, (:Axis, :xgridcolor), (:black, 0.5))
+        rgridcolor = inherit(scene, (:Axis, :ygridcolor), (:black, 0.5))
         "The linewidth of the `r` grid."
-        rgridwidth = inherit(scene, (:Axis, :xgridwidth), 1)
+        rgridwidth = inherit(scene, (:Axis, :ygridwidth), 1)
         "The linestyle of the `r` grid."
-        rgridstyle = inherit(scene, (:Axis, :xgridstyle), nothing)
+        rgridstyle = inherit(scene, (:Axis, :ygridstyle), nothing)
         "Controls if the `r` grid is visible."
-        rgridvisible = inherit(scene, (:Axis, :xgridvisible), true)
+        rgridvisible = inherit(scene, (:Axis, :ygridvisible), true)
         "The formatter for the `r` ticks"
         rtickformat = Makie.automatic
         "The fontsize of the `r` tick labels."
-        rticklabelsize = inherit(scene, (:Axis, :xticklabelsize), 16)
+        rticklabelsize = inherit(scene, (:Axis, :yticklabelsize), 16)
         "The font of the `r` tick labels."
-        rticklabelfont = inherit(scene, (:Axis, :xticklabelfont), inherit(scene, :font, Makie.defaultfont()))
+        rticklabelfont = inherit(scene, (:Axis, :yticklabelfont), inherit(scene, :font, Makie.defaultfont()))
         "The color of the `r` tick labels."
-        rticklabelcolor = inherit(scene, (:Axis, :xticklabelcolor), inherit(scene, :textcolor, :black))
+        rticklabelcolor = inherit(scene, (:Axis, :yticklabelcolor), inherit(scene, :textcolor, :black))
         "Controls if the `r` ticks are visible."
-        rticklabelsvisible = inherit(scene, (:Axis, :xticklabelsvisible), true)
+        rticklabelsvisible = inherit(scene, (:Axis, :yticklabelsvisible), true)
         "The angle in radians along which the `r` ticks are printed."
         rtickangle = π/8
         "The specifier for the angular (`θ`) ticks, similar to `yticks` for a normal Axis."
@@ -1650,31 +1650,31 @@ end
         "The specifier for the minor `θ` ticks."
         θminorticks = IntervalsBetween(2)
         "The color of the `θ` grid."
-        θgridcolor = inherit(scene, (:Axis, :ygridcolor), (:black, 0.5))
+        θgridcolor = inherit(scene, (:Axis, :xgridcolor), (:black, 0.5))
         "The linewidth of the `θ` grid."
-        θgridwidth = inherit(scene, (:Axis, :ygridwidth), 1)
+        θgridwidth = inherit(scene, (:Axis, :xgridwidth), 1)
         "The linestyle of the `θ` grid."
-        θgridstyle = inherit(scene, (:Axis, :ygridstyle), nothing)
+        θgridstyle = inherit(scene, (:Axis, :xgridstyle), nothing)
         "Controls if the `θ` grid is visible."
-        θgridvisible = inherit(scene, (:Axis, :ygridvisible), true)
+        θgridvisible = inherit(scene, (:Axis, :xgridvisible), true)
         "The formatter for the `θ` ticks."
         θtickformat = Makie.automatic
         "The fontsize of the `θ` tick labels."
-        θticklabelsize = inherit(scene, (:Axis, :yticklabelsize), 16)
+        θticklabelsize = inherit(scene, (:Axis, :xticklabelsize), 16)
         "The font of the `θ` tick labels."
-        θticklabelfont = inherit(scene, (:Axis, :yticklabelfont), inherit(scene, :font, Makie.defaultfont()))
+        θticklabelfont = inherit(scene, (:Axis, :xticklabelfont), inherit(scene, :font, Makie.defaultfont()))
         "The color of the `θ` tick labels."
-        θticklabelcolor = inherit(scene, (:Axis, :yticklabelcolor), inherit(scene, :textcolor, :black))
+        θticklabelcolor = inherit(scene, (:Axis, :xticklabelcolor), inherit(scene, :textcolor, :black))
         "Controls if the `θ` ticks are visible."
-        θticklabelsvisible = inherit(scene, (:Axis, :yticklabelsvisible), true)
+        θticklabelsvisible = inherit(scene, (:Axis, :xticklabelsvisible), true)
         "The title of the plot"
         title = " "
         "The gap between the title and the top of the axis"
-        titlegap = inherit(scene, (:Axis, :titlesize), inherit(scene, :fontsize, 16) / 2)
+        titlegap = inherit(scene, (:Axis, :titlesize), inherit(scene, :fontsize, 16)[] / 2)
         "The alignment of the title.  Can be any of `:center`, `:left`, or `:right`."
         titlealign = :center
         "The fontsize of the title."
-        titlesize = inherit(scene, (:Axis, :titlesize), inherit(scene, :fontsize, 16) * 1.2)
+        titlesize = inherit(scene, (:Axis, :titlesize), inherit(scene, :fontsize, 16)[] * 1.2)
         "The font of the title."
         titlefont = inherit(scene, (:Axis, :titlefont), inherit(scene, :font, Makie.defaultfont()))
         "The color of the title."
@@ -1682,21 +1682,21 @@ end
         "Controls if the title is visible."
         titlevisible = inherit(scene, (:Axis, :titlevisible), true)
         "The color of the `r` minor grid."
-        rminorgridcolor = inherit(scene, (:Axis, :xminorgridcolor), (:black, 0.2))
+        rminorgridcolor = inherit(scene, (:Axis, :yminorgridcolor), (:black, 0.2))
         "The linewidth of the `r` minor grid."
-        rminorgridwidth = inherit(scene, (:Axis, :xminorgridwidth), 1)
+        rminorgridwidth = inherit(scene, (:Axis, :yminorgridwidth), 1)
         "The linestyle of the `r` minor grid."
-        rminorgridstyle = inherit(scene, (:Axis, :xminorgridstyle), nothing)
+        rminorgridstyle = inherit(scene, (:Axis, :yminorgridstyle), nothing)
         "Controls if the `r` minor grid is visible."
-        rminorgridvisible = inherit(scene, (:Axis, :xminorgridvisible), true)
+        rminorgridvisible = inherit(scene, (:Axis, :yminorgridvisible), true)
         "The color of the `θ` minor grid."
-        θminorgridcolor = inherit(scene, (:Axis, :yminorgridcolor), (:black, 0.2))
+        θminorgridcolor = inherit(scene, (:Axis, :xminorgridcolor), (:black, 0.2))
         "The linewidth of the `θ` minor grid."
-        θminorgridwidth = inherit(scene, (:Axis, :yminorgridwidth), 1)
+        θminorgridwidth = inherit(scene, (:Axis, :xminorgridwidth), 1)
         "The linestyle of the `θ` minor grid."
-        θminorgridstyle = inherit(scene, (:Axis, :yminorgridstyle), nothing)
+        θminorgridstyle = inherit(scene, (:Axis, :xminorgridstyle), nothing)
         "Controls if the `θ` minor grid is visible."
-        θminorgridvisible = inherit(scene, (:Axis, :yminorgridvisible), true)
+        θminorgridvisible = inherit(scene, (:Axis, :xminorgridvisible), true)
         "The density at which grid lines are sampled."
         sample_density = 100
         "Controls whether to activate the nonlinear clip feature.  Note that this should not be used when the background is ultimately transparent."

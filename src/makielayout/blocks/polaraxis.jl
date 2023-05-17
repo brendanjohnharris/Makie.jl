@@ -54,9 +54,9 @@ function Makie.apply_transform(f::PolarAxisTransformation, r::Rect2{T}) where {T
         rmax = xmax
         # the diagonal of a square is sqrt(2) * side
         # the radius of a circle inscribed within that square is side/2
-        mins = Point2f(-rmax)#Makie.apply_transform(f, Point2f(xmin, ymin))
-        maxs = Point2f(rmax*2)#Makie.apply_transform(f, Point2f(xmax - xmin, prevfloat(2f0π)))
-        @show(mins, maxs)
+        mins = Point2f(-rmax) #Makie.apply_transform(f, Point2f(xmin, ymin))
+        maxs = Point2f(rmax*2) #Makie.apply_transform(f, Point2f(xmax - xmin, prevfloat(2f0π)))
+        # @show(mins, maxs)
         return Rect2f(mins,maxs)
     end
     for x in range(xmin, xmax; length = N)
@@ -121,10 +121,10 @@ end
 
 # A function which redoes text layouting, to provide a bbox for arbitrary text.
 
-function text_bbox(textstring::AbstractString, textsize::Union{AbstractVector, Number}, font, align, rotation, justification, lineheight, word_wrap_width = -1)
+function text_bbox(textstring::AbstractString, fontsize::Union{AbstractVector, Number}, font, align, rotation, justification, lineheight, word_wrap_width = -1)
     glyph_collection = Makie.layout_text(
-            textstring, textsize,
-            font, align, rotation, justification, lineheight,
+            textstring, fontsize,
+            string(font), [], align, rotation, justification, lineheight,
             RGBAf(0,0,0,0), RGBAf(0,0,0,0), 0f0, word_wrap_width
         )
 
@@ -134,7 +134,7 @@ end
 function text_bbox(plot::Text)
     return text_bbox(
         plot.text[],
-        plot.textsize[],
+        plot.fontsize[],
         plot.font[],
         plot.align[],
         plot.rotation[],
@@ -211,7 +211,7 @@ function Makie.initialize_block!(po::PolarAxis)
             # calculate text boundingboxes individually and select the maximum boundingbox
             text_bboxes = text_bbox.(
                 first.(θticklabelplot[1][]),
-                Ref(θticklabelplot.textsize[]),
+                Ref(θticklabelplot.fontsize[]),
                 θticklabelplot.font[],
                 θticklabelplot.align[] isa Tuple ? Ref(θticklabelplot.align[]) : θticklabelplot.align[],
                 θticklabelplot.rotation[],
@@ -398,7 +398,7 @@ function draw_axis!(po::PolarAxis)
     # tick labels
     rticklabelplot = text!(
         po.blockscene, rtick_pos_lbl;
-        textsize = po.rticklabelsize,
+        fontsize = po.rticklabelsize,
         font = po.rticklabelfont,
         color = po.rticklabelcolor,
         align = (:left, :bottom),
@@ -406,7 +406,7 @@ function draw_axis!(po::PolarAxis)
 
     θticklabelplot = text!(
         po.blockscene, θtick_pos_lbl;
-        textsize = po.θticklabelsize,
+        fontsize = po.θticklabelsize,
         font = po.θticklabelfont,
         color = po.θticklabelcolor,
         align = (:center, :center),

@@ -125,8 +125,8 @@ end
     p3 = Point(2.0, 5.0, 4.0)
 
     spaces_and_desired_transforms = Dict(
-        :data => (x,y) -> y, # uses changes 
-        :clip => (x,y) -> x, # no change 
+        :data => (x,y) -> y, # uses changes
+        :clip => (x,y) -> x, # no change
         :relative => (x,y) -> x, # no change
         :pixel => (x,y) -> x, # no transformation
     )
@@ -141,5 +141,5 @@ end
         @test apply_transform(t2, p3, space) == desired_transform(p3, Point3f(sqrt(2.0), log(5.0), 4.0))
 
         @test apply_transform(t3, p3, space) == desired_transform(p3, Point3f(sqrt(2.0), log(5.0), log10(4.0)))
-    end 
+    end
 end

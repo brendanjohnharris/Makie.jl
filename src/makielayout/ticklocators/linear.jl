@@ -73,7 +73,6 @@ end
 A cheaper function that tries to come up with usable tick locations for a given value range
 """
 function locateticks(vmin, vmax, n_ideal::Int, _integer::Bool = false, _min_n_ticks::Int = 2)
-
     @assert isfinite(vmin)
     @assert isfinite(vmax)
     @assert vmin != vmax
