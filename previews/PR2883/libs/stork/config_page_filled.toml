@@ -1,0 +1,419 @@
+[input]
+base_directory = "../.."
+html_selector = ".franklin-content"
+title_boost = "Ridiculous"
+url_prefix = "/previews/PR2883/"
+
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/09Yiqx6x6G7UttOZpuOu.html"
+    title = "404 · Makie"
+    url = "404.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/vDHPA6yyaAQeTpYbVb3P.html"
+    title = "Interactive visualizations and powerful plotting in Julia · Makie"
+    url = "index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/I4iXOFYoZy2RvHYr03ro.html"
+    title = "API · Makie"
+    url = "api/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/lAEMtgdFngtxao2i7oaU.html"
+    title = "Documentation · Makie"
+    url = "documentation/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/AACgy84siI6hpewMlA1h.html"
+    title = "Animations · Makie"
+    url = "documentation/animation/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/iOr6IHphEN6mwVN5oY3F.html"
+    title = "Backends · Makie"
+    url = "documentation/backends/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/TWugSs9Ryq38fMyvOspm.html"
+    title = "CairoMakie · Makie"
+    url = "documentation/backends/cairomakie/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/KEdJOsu6xtrASpgGWv3H.html"
+    title = "GLMakie · Makie"
+    url = "documentation/backends/glmakie/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/PrPehQXDQdG6xBX3BBsE.html"
+    title = "RPRMakie · Makie"
+    url = "documentation/backends/rprmakie/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/CsxQ1BhmQ9ZQsk2azPn0.html"
+    title = "WGLMakie · Makie"
+    url = "documentation/backends/wglmakie/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/d2I5jUYz9fjjCE7m3Lvx.html"
+    title = "Blocks · Makie"
+    url = "documentation/blocks/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/WkGem9rs9YARoGBZIwil.html"
+    title = "Cameras · Makie"
+    url = "documentation/cameras/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/Q4qxRXsCAoV6XTaBEIrb.html"
+    title = "Colors · Makie"
+    url = "documentation/colors/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/54xYNIq4gPo54gDpCTRn.html"
+    title = "Events · Makie"
+    url = "documentation/events/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/WIACM0qGCiQb8moDLLz2.html"
+    title = "Frequently Asked Questions · Makie"
+    url = "documentation/faq/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/31TZFufi4MzGItXq41kf.html"
+    title = "Figures · Makie"
+    url = "documentation/figure/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/yxzqODooHlvGVTBDAdKV.html"
+    title = "Exporting a Figure with physical dimensions · Makie"
+    url = "documentation/figure_size/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/RWkQGCeJw3CGjsES5N8m.html"
+    title = "Fonts · Makie"
+    url = "documentation/fonts/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/QTjp2O5FWnINtmJNCG0s.html"
+    title = "Headless · Makie"
+    url = "documentation/headless/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/BwFvifNhOGjHZRqiBOyB.html"
+    title = "Inspecting Data · Makie"
+    url = "documentation/inspector/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/2vGQSh7AP3w0g8BCGpEK.html"
+    title = "LaTeX · Makie"
+    url = "documentation/latex/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/qxtM4YrrLBZK461nd01V.html"
+    title = "How layouts work · Makie"
+    url = "documentation/layouting/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/MRMBHERRBIgACyrv9EKe.html"
+    title = "Lighting · Makie"
+    url = "documentation/lighting/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/sYDY2h5V2sNI9x86hoJl.html"
+    title = "Observables & Interaction · Makie"
+    url = "documentation/nodes/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/4h7qZusLXGhFw7Bmbc0M.html"
+    title = "Plot Method Signatures · Makie"
+    url = "documentation/plot_method_signatures/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/GjXTT7rwpIiVqvgwMThp.html"
+    title = "Plot Recipes · Makie"
+    url = "documentation/recipes/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/Pt6txOXApOzDQwzDxqK1.html"
+    title = "Scenes · Makie"
+    url = "documentation/scenes/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/6Xfbuxsr6eYquy49zfkw.html"
+    title = "Theming · Makie"
+    url = "documentation/theming/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/26a6cR7DXHXWXyPl1f9W.html"
+    title = "Predefined themes · Makie"
+    url = "documentation/theming/predefined_themes/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/8CL0E0pxNrbPg92xgiDH.html"
+    title = "Basic transparency · Makie"
+    url = "documentation/transparency/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/XCqi8sMwWeGEqiZnka4D.html"
+    title = "Examples · Makie"
+    url = "examples/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/4jznUHdRS2a9LVLphUWl.html"
+    title = "Blocks & Widgets · Makie"
+    url = "examples/blocks/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/PgnRAV3hTXuSui8Xy9Tx.html"
+    title = "Axis · Makie"
+    url = "examples/blocks/axis/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/DNzQINy0ql7Cy50ItGoV.html"
+    title = "Axis3 · Makie"
+    url = "examples/blocks/axis3/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/D3QSGR2uInj7RIreU2cD.html"
+    title = "Box · Makie"
+    url = "examples/blocks/box/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/nyPw5gW3zwvZ0Miyypr9.html"
+    title = "Button · Makie"
+    url = "examples/blocks/button/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/O9AtHKVYHD8J1qflwOdE.html"
+    title = "Colorbar · Makie"
+    url = "examples/blocks/colorbar/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/zp5qdHaLwi0esw6MqFeC.html"
+    title = "GridLayout · Makie"
+    url = "examples/blocks/gridlayout/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/n2nRoxT5nbmwuZ1yp5cg.html"
+    title = "IntervalSlider · Makie"
+    url = "examples/blocks/intervalslider/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/GsR5d4KkwRG0EPABpOxV.html"
+    title = "Label · Makie"
+    url = "examples/blocks/label/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/amvLclX2n6oNiqGQ0DiP.html"
+    title = "Legend · Makie"
+    url = "examples/blocks/legend/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/5caEOlugwVcBc8nBtxwb.html"
+    title = "LScene · Makie"
+    url = "examples/blocks/lscene/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/p8cw3LFlZzv2wtXHGHPu.html"
+    title = "Menu · Makie"
+    url = "examples/blocks/menu/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/mCvkol9mjSr0WTYMC0Ik.html"
+    title = "Slider · Makie"
+    url = "examples/blocks/slider/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/Tg7dq4Vldz2ol02fGTwT.html"
+    title = "SliderGrid · Makie"
+    url = "examples/blocks/slidergrid/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/hp5xnqRpg44mWJBfM11s.html"
+    title = "Textbox · Makie"
+    url = "examples/blocks/textbox/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/G34uO4Ca4h2pbqcPKELP.html"
+    title = "Toggle · Makie"
+    url = "examples/blocks/toggle/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/4Wxe3tVC7pZvAFaSnrlN.html"
+    title = "Plotting functions · Makie"
+    url = "examples/plotting_functions/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/IrHSwySatzMNgB7Li8QG.html"
+    title = "ablines · Makie"
+    url = "examples/plotting_functions/ablines/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/cRen3VvtOfdle0oHPJZ0.html"
+    title = "arc · Makie"
+    url = "examples/plotting_functions/arc/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/GFx3nQrhNgvkl9IbVZWx.html"
+    title = "arrows · Makie"
+    url = "examples/plotting_functions/arrows/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/bBI1OcX1icpeaAreZmeY.html"
+    title = "band · Makie"
+    url = "examples/plotting_functions/band/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/yuPFpDjJ8zm0UC1H0BrT.html"
+    title = "barplot · Makie"
+    url = "examples/plotting_functions/barplot/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/pedmxM48wjGK7RRi6cfL.html"
+    title = "boxplot · Makie"
+    url = "examples/plotting_functions/boxplot/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/EIQLZdVDNMrNnxfd4jsa.html"
+    title = "bracket · Makie"
+    url = "examples/plotting_functions/bracket/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/SkTekLJKE62Js0AKOvgn.html"
+    title = "contour · Makie"
+    url = "examples/plotting_functions/contour/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/YnQofgh7lfWmtoi6y2Jp.html"
+    title = "contour3d · Makie"
+    url = "examples/plotting_functions/contour3d/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/wtauzdgVlfph2TBWSIRq.html"
+    title = "contourf · Makie"
+    url = "examples/plotting_functions/contourf/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/fu3ClQ9bxDLNakrqQKVl.html"
+    title = "crossbar · Makie"
+    url = "examples/plotting_functions/crossbar/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/BpapVnFJBZYsxYRslyFn.html"
+    title = "datashader · Makie"
+    url = "examples/plotting_functions/datashader/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/tNmPf6qzi2SPpwdDH6sY.html"
+    title = "density · Makie"
+    url = "examples/plotting_functions/density/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/f7cWFbN12hRddh8yxpW5.html"
+    title = "ecdfplot · Makie"
+    url = "examples/plotting_functions/ecdf/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/440bnpwYo2WgQ0mVMkDn.html"
+    title = "errorbars · Makie"
+    url = "examples/plotting_functions/errorbars/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/i6QsXIvcjx5fviKFag9r.html"
+    title = "heatmap · Makie"
+    url = "examples/plotting_functions/heatmap/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/6Zt2aEAMTjTVE4n0YSOo.html"
+    title = "hexbin · Makie"
+    url = "examples/plotting_functions/hexbin/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/e5uvxbROWjNYAAzsAWqF.html"
+    title = "hist · Makie"
+    url = "examples/plotting_functions/hist/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/IDUYQ65XUwCiKCqBHsHs.html"
+    title = "hlines and vlines · Makie"
+    url = "examples/plotting_functions/hvlines/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/aQxueXrEegKIMft1XZ0R.html"
+    title = "hspan and vspan · Makie"
+    url = "examples/plotting_functions/hvspan/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/wTl7bDkzZXvURR9tAhwn.html"
+    title = "image · Makie"
+    url = "examples/plotting_functions/image/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/21gzojTuXQeBFedAG5WQ.html"
+    title = "lines · Makie"
+    url = "examples/plotting_functions/lines/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/dQeWQQbFlIWMWq6DWcvh.html"
+    title = "linesegments · Makie"
+    url = "examples/plotting_functions/linesegments/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/ufNBgrOtKHxlhTvMM4tA.html"
+    title = "mesh · Makie"
+    url = "examples/plotting_functions/mesh/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/pW8dBwEgEn4kuihblUGb.html"
+    title = "meshscatter · Makie"
+    url = "examples/plotting_functions/meshscatter/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/bI88LV1HBu8D3IX57Y48.html"
+    title = "pie · Makie"
+    url = "examples/plotting_functions/pie/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/eM3qJYG7n7jAHXvorCjm.html"
+    title = "poly · Makie"
+    url = "examples/plotting_functions/poly/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/GRTK2UQwUSWDYZSIsOSG.html"
+    title = "qqplot and qqnorm · Makie"
+    url = "examples/plotting_functions/qqplot/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/gmsJiqEYlnaG3EC8oBL2.html"
+    title = "rainclouds · Makie"
+    url = "examples/plotting_functions/rainclouds/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/nrX7uxYfYK1X9W8gBgBb.html"
+    title = "rangebars · Makie"
+    url = "examples/plotting_functions/rangebars/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/6k3pkyaSR0U5pY9vvbbj.html"
+    title = "scatter · Makie"
+    url = "examples/plotting_functions/scatter/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/0fgeDjYyQh1RURNy3MYN.html"
+    title = "scatterlines · Makie"
+    url = "examples/plotting_functions/scatterlines/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/qzLl6NhpW56TwOHWc64e.html"
+    title = "series · Makie"
+    url = "examples/plotting_functions/series/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/zRmeJNRoaHvHMIpQ4L8k.html"
+    title = "spy · Makie"
+    url = "examples/plotting_functions/spy/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/ZhqNp00HxtBLNkLyrChl.html"
+    title = "stairs · Makie"
+    url = "examples/plotting_functions/stairs/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/B7JyIkY4tyePMsKU4UT7.html"
+    title = "stem · Makie"
+    url = "examples/plotting_functions/stem/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/TC9EW5aKOpcMBsb7sD2g.html"
+    title = "stephist · Makie"
+    url = "examples/plotting_functions/stephist/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/yJnnezuhH2pnmRmEEc8Q.html"
+    title = "streamplot · Makie"
+    url = "examples/plotting_functions/streamplot/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/twqdtfbzKdtXUGwXErzA.html"
+    title = "surface · Makie"
+    url = "examples/plotting_functions/surface/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/KTTvBqGVLCPnLrxWBSme.html"
+    title = "text · Makie"
+    url = "examples/plotting_functions/text/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/UD80NGV48Vw3EzlxktLx.html"
+    title = "tooltip · Makie"
+    url = "examples/plotting_functions/tooltip/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/dXlvAidNzneRZaPJeVhr.html"
+    title = "tricontourf · Makie"
+    url = "examples/plotting_functions/tricontourf/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/jxlQQWj48fVgKg2tb8Ml.html"
+    title = "violin · Makie"
+    url = "examples/plotting_functions/violin/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/4q75Itulj5SeziwU3KCm.html"
+    title = "volume · Makie"
+    url = "examples/plotting_functions/volume/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/y9nmfUDHz4dfU5nnP8YC.html"
+    title = "volumeslices · Makie"
+    url = "examples/plotting_functions/volumeslices/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/eBIE9uetnRa9F3qH7QI7.html"
+    title = "waterfall · Makie"
+    url = "examples/plotting_functions/waterfall/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/r5mo8La8Pg5m5HaIwm0i.html"
+    title = "wireframe · Makie"
+    url = "examples/plotting_functions/wireframe/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/76RSwjdSKce43trUkIYS.html"
+    title = "News · Makie"
+    url = "news/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/jeTeO1s8ykCRMtrGrrFY.html"
+    title = "Search · Makie"
+    url = "search/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/LIwabhAqskD52gRnIadH.html"
+    title = "Tutorials · Makie"
+    url = "tutorials/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/dxObERUDe5ZYM7BduAmH.html"
+    title = "Aspect ratio and size control tutorial · Makie"
+    url = "tutorials/aspect-tutorial/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/bG7x7lTGS42zpoFZRViY.html"
+    title = "Basic Tutorial · Makie"
+    url = "tutorials/basic-tutorial/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/3efT6qKFBTw96vNuRKFF.html"
+    title = "Layout Tutorial · Makie"
+    url = "tutorials/layout-tutorial/index.html"
+    [[input.files]]
+    path = "/tmp/jl_VaWnYo/UliisvFmVGG3JhEPPzCt.html"
+    title = "Scene tutorial · Makie"
+    url = "tutorials/scenes/index.html"
+
+[output]
+excerpt_buffer = 24
+excerpts_per_result = 7
+save_nearest_html_id = true
